@@ -1,0 +1,40 @@
+.aiht-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.aiht-tabs button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.aiht-tabs button.active {
+    background: #007cba;
+    color: white;
+}
+
+.aiht-style-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.aiht-style-item.selected {
+    background: #007cba;
+    color: white;
+}
+
+.aiht-upload-field {
+    text-align: center;
+}
+
+.aiht-gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+.aiht-loading-spinner {
+    text-align: center;
+    font-size: 18px;
+}
